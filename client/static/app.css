@@ -6,6 +6,10 @@ body {
 	padding-top: 100px;
 }
 
+.title {
+	padding-left: 20px;
+}
+
 .introBox {
     height: 400px;
     width: 50%;
