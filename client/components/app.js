@@ -19,13 +19,15 @@ class App extends React.Component {
     }, 1000);
     if (!counter && count < 12) {
       x.setState({ count: count + 1})
-      x.setState({ counter: 4 })
+      x.setState({ counter: 30 })
     }
     var array = ['init', 'pose1.png', 'pose2.png', 'pose3.png', 'pose4.png', 'pose5.png', 'pose6.png', 'pose7.png', 'pose9.png', 'pose10.png', 'pose11.png']
     return (
-      <div>
-        {counter}
-        <img src={array[count]}/>
+      <div className='container'>
+        <div className='app'>
+          <h2>{counter}</h2>
+          <img src={array[count]}/>
+        </div>  
       </div>
     )
   }
