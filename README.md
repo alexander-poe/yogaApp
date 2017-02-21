@@ -10,9 +10,9 @@ Fix warning in console by moving state to redux store.
 
 ##Add better assets:
   
-  1: animations
+  - animations
   
-  2. there is an instructor that ones to use this, but
+  - there is an instructor that ones to use this, but
   i am waiting on them to film themselves in front of a white screen.
 
 API Call that finds inspiration quotes a displays on screen.
