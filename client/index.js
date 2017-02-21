@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainComponent from './main-component';
 import store from './store';
 import { Router, Route, hashHistory } from 'react-router'
 import App from './components/app';
@@ -13,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () =>
 		<Router history={ hashHistory }>
 			<Route path='/' component={ Welcome }></Route>
 			<Route path='/8minuteYoga' component={ App }></Route>
-		</Router>	
+		</Router>
 	</Provider>, document.getElementById('app'))
 );

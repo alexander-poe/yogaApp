@@ -7,7 +7,7 @@
     "start": "npm run build && node server.js",
     "build": "mkdir -p build && cp client/static/* build/ && webpack",
     "watch": "npm run build && run-p watch:*",
-    "watch:copy": "chokidar \"client/static/*\" \"client/introicon.png/*\" \"client/pose1.png/*\" \"client/pose2.png/*\"   \"client/pose3.png/*\" \"client/pose4.png/*\" \"client/pose5.png/*\" \"client/pose6.png/*\" \"client/pose7.png/*\" \"client/pose8.png/*\" \"client/pose9.png/*\" \"client/pose10.png/*\" \"client/pose11.png/*\"  -c \"cp {path} build/\"",
+    "watch:copy": "chokidar \"client/static/*\"  \"client/freshStartIntroPage.png/*\" \"client/freshStartMainPage.png/*\" \"client/enter.png/*\"  \"client/yogamusic.mp3/*\" \"client/freshStartYoga.png/*\" \"client/introicon.png/*\" \"client/pose1.png/*\" \"client/pose2.png/*\" \"client/pose3.png/*\" \"client/pose4.png/*\" \"client/pose5.png/*\" \"client/pose6.png/*\" \"client/pose7.png/*\" \"client/pose8.png/*\" \"client/pose9.png/*\" \"client/pose10.png/*\" \"client/pose11.png/*\"  -c \"cp {path} build/\"",
     "watch:js": "webpack --watch",
     "watch:server": "nodemon -w server.js server.js -x \"npm run\"",
     "server.js": "npm start",
@@ -36,6 +36,7 @@
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.6",
     "react-router": "^3.0.2",
+    "react-sound": "^0.5.2",
     "redux": "^3.6.0",
     "redux-thunk": "^2.1.0",
     "webpack": "^1.13.3"
