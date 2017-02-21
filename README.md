@@ -1,16 +1,7 @@
-Basic full-stack JavaScript app template
 
-To build: npm run build
-
-To start the server: npm run start
-
-To start in dev mode, with everything watched: npm run watch
 
 Simple Yoga App based off of 7 minute workout http://7-min.com/
 Current version is not intended for production use.
-
-![full page](/freshStartIntroPage.png)
-![full page](/freshStartMainPage.png)
 
 TODO
 Add Airbnb style guide.
@@ -26,3 +17,17 @@ API Call that finds inspiration quotes a displays on screen.
 Polish user touches to make more customized.
 
 Days in a row accomplished / Difficulty level ect.
+
+![full page](/freshStartIntroPage.png)
+![full page](/freshStartMainPage.png)
+
+
+
+
+Basic full-stack JavaScript app template
+
+To build: npm run build
+
+To start the server: npm run start
+
+To start in dev mode, with everything watched: npm run watch
