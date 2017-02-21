@@ -9,8 +9,8 @@ To start in dev mode, with everything watched: npm run watch
 Simple Yoga App based off of 7 minute workout http://7-min.com/
 Current version is not intended for production use.
 
-![full page](/build/freshStartIntroPage.png)
-![full page](/build/freshStartMainPage.png)
+![full page](/freshStartIntroPage.png)
+![full page](/freshStartMainPage.png)
 
 TODO
 Add Airbnb style guide.
