@@ -3,13 +3,15 @@
 Simple Yoga App based off of 7 minute workout http://7-min.com/
 Current version is not intended for production use.
 
-TODO
+##TODO
 Add Airbnb style guide.
 
 Fix warning in console by moving state to redux store.
 
-Add better assets:
+##Add better assets:
+  
   1: animations
+  
   2. there is an instructor that ones to use this, but
   i am waiting on them to film themselves in front of a white screen.
 
