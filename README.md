@@ -9,9 +9,9 @@ Add Airbnb style guide.
 Fix warning in console by moving state to redux store.
 
 ## Add better assets:
-  
+
   - animations
-  
+
   - there is an instructor that ones to use this, but
   i am waiting on them to film themselves in front of a white screen.
 
