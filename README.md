@@ -11,7 +11,7 @@ If you are into that kind of thing, then you are going to enjoy the sounds of bi
 ![full page](/freshStartIntroPage.png)
 ![full page](/freshStartMainPage.png)
 
-# run app locallydfsdsfafsa
+# run app
 
 To build: npm run build
 
