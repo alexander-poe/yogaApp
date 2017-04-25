@@ -1,32 +1,13 @@
 
+## Yoga App 
 
-Simple Yoga App based off of 7 minute workout http://7-min.com/
-Current version is not intended for production use.
-
-## TODO
-Add Airbnb style guide.
-
-Fix warning in console by moving state to redux store.
-
-## Add better assets:
-
-  - animations
-
-  - there is an instructor that ones to use this, but
-  i am waiting on them to film themselves in front of a white screen.
-
-API Call that finds inspiration quotes a displays on screen.
-Polish user touches to make more customized.
-
-Days in a row accomplished / Difficulty level ect.
+Using a timer made with react, the user is able to experience a variety of simple yoga poses played to some soothing music.
+If you are into that kind of thing, then you are going to enjoy the sounds of binaural tunes while your inner yogi sprouts off the screen and kicks you into shape. 
 
 ![full page](/freshStartIntroPage.png)
 ![full page](/freshStartMainPage.png)
 
-
-
-
-Basic full-stack JavaScript app template
+# run app locally
 
 To build: npm run build
 
